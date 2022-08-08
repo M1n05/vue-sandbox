@@ -13,10 +13,11 @@
     "ag-grid-vue": "^28.1.0",
     "core-js": "^3.24.1",
     "insert-css": "^2.0.0",
-    "vue": "^3.2.37",
+    "vue": "2.6.14",
     "vue-class-component": "^7.2.6",
     "vue-property-decorator": "^9.1.2",
-    "vueify": "^9.4.1"
+    "vueify": "^9.4.1",
+    "vue-template-compiler": "2.6.14"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.4.0",
@@ -34,8 +35,7 @@
     "vite": "^3.0.4",
     "vite-plugin-vue2": "^2.0.2",
     "vue-demi": "^0.13.6",
-    "vue-query": "^1.25.2",
-    "vue-template-compiler": "2.6.14"
+    "vue-query": "^1.25.2"
   },
   "eslintConfig": {
     "root": true,
@@ -53,11 +53,7 @@
     },
     "rules": {}
   },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead"
-  ],
+  "browserslist": ["> 1%", "last 2 versions", "not dead"],
   "stackblitz": {
     "startCommand": "npm run vite:dev"
   }
